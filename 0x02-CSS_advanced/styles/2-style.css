@@ -2,7 +2,7 @@ html, body {
     scroll-behavior: smooth;
 }
 
-.a {
+a {
     color: #161616;
 }
 
@@ -14,6 +14,6 @@ html, body {
     color: #D73953;
 }
 
-.section-tagline {
+.setion-tagline {
     color: #D73953;
 }
