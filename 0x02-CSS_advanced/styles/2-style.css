@@ -2,11 +2,11 @@ html, body {
     scroll-behavior: smooth;
 }
 
-.b {
+.a {
     color: #161616;
 }
 
-.visually-hidden {
+.visally-hidden {
     display: none;
 }
 
