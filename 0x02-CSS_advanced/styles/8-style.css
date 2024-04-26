@@ -26,9 +26,6 @@ body {
     color: var(--text-color);
     font-family: var(--font-family-base);
     font-weight: var(--font-weight-regular);
-}
-
-body > line-boxes {
     min-height: var(--line-height-base);
 }
 
