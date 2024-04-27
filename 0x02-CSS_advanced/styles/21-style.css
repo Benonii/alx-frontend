@@ -187,7 +187,7 @@ ul.row {
     clear: both;
 }
 
-[class^="col-"] {
+ul.row li[class^="col-"] {
     float: left;
     padding: calc(.5 * var(--root-element));
 }
