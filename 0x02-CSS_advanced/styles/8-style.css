@@ -31,7 +31,8 @@ body {
     color: var(--text-color);
     font-family: var(--font-family-base);
     font-weight: var(--font-weight-regular);
-    min-height: var(--line-height-base);
+    line-height: var(--line-height-base);
+    min-height: calc(var(--line-height-base) * 1em);
 }
 
 h1, h2, h3,
