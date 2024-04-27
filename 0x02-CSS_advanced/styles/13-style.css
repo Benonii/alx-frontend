@@ -49,11 +49,11 @@ a[href] {
     text-decoration: none;
 }
 
-a[href]:visited {
+a:visited {
     font-style: italic;
 }
 
-a:hover {
+a[href]:hover {
     text-decoration: underline;
 }
 
