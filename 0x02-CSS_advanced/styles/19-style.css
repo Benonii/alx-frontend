@@ -42,18 +42,18 @@ html {
     --nav-item-font-family: var(--font-family-title);
     --nav-item-font-weight: var(--font-weight-bold);
     --nav-item-font-size: var(--font-size-medium);
-    --nav-item-letter-spacing: calc(var(--root-letter-spacing) * .04);
+    --nav-item-letter-spacing: 4%;
     --nav-item-display: inline-block;
-    --nav-item-margin: calc(0 0 var(--root-margin) * 3 0);
+    --nav-item-margin: 0 0 calc(var(--root-margin)) * 3 0;
     --nav-item-link-hover: var(--color-primary);
-    --section0tagline-margin: 0;
 }
 
 body {
     color: var(--text-color);
     font-family: var(--font-family-base);
     font-weight: var(--font-weight-regular);
-    min-height: var(--line-height-base);
+    line-height: var(--line-height-base);
+    min-height: calc(var(--line-height-base) * 1em);
 }
 
 h1, h2, h3,
@@ -141,7 +141,7 @@ a:active {
     text-align: center; 
 }
 
-.nav > .nav-item {
+.nav .nav-item {
     font-family: var(--nav-item-font-family);
     font-weight: var(--nav-item-font-weight);
     font-size: var(--nav-item-font-size);
@@ -150,12 +150,12 @@ a:active {
     margin: var(--nav-item-margin);
 }
 
-.nav > .nav-item > .nav-link {
+.nav .nav-link {
     display: block;
-    padding: calc(var(--root-padding / 2) var(--root-padding));
+    padding: calc(var(--root-element)) * .5 var(--root-element);
 }
 
-.nav > .nav-item > .nav-link:hover {
+.nav .nav-link:hover {
     color: var(--nav-item-link-hover);
 }
 
