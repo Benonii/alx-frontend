@@ -129,14 +129,14 @@ a:active {
     float: right;    
 }
 
-nav {
+.nav {
     margin: 0;
     padding: 0;
     list-style: none;
     text-align: center; 
 }
 
-.nav-item {
+.nav > .nav-item {
     font-family: var(--nav-item-font-family);
     font-weight: var(--nav-item-font-weight);
     font-size: var(--nav-item-font-size);
@@ -145,11 +145,11 @@ nav {
     margin: var(--nav-item-margin);
 }
 
-.nav-link {
+.nav > .nav-item > .nav-link {
     display: block;
     padding: calc(var(--root-padding / 2) var(--root-padding));
 }
 
-.nav-link:hover {
+.nav > .nav-item > .nav-link:hover {
     color: var(--nav-item-link-hover);
 }
