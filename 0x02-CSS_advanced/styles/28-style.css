@@ -72,12 +72,12 @@ body {
     min-height: calc(var(--line-height-base) * 1em);
 }
 
-.heder {
+.header {
     padding: var(--header-padding);
 }
 
 .header-logo {
-    position: var(--header-logo-position);
+    position: vr(--header-logo-position);
 }
 
 .header-logo:link {
