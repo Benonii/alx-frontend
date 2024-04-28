@@ -322,11 +322,11 @@ ul.row {
 
 .card-work .card-outer {
     position: relative;
-    overflow: hiddn;
+    overflow: hidden;
 }
 
 .card-work .card-image img {
-    height: 30rem;
+    height: 3rem;
     width: 100%;
     object-fit: cover;
     align-items: bottom;
