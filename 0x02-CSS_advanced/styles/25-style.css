@@ -47,7 +47,7 @@ html {
     --nav-item-margin: 0 0 calc(var(--root-margin)) * 3 0;
     --nav-item-link-hover: var(--color-primary);
     --section-tagline-margin: 0;
-    --button-dispaly: inline-block;
+    --button-display: inline-block;
     --button-padding: 1.5rem 3rem;
     --button-border: .2rem solid var(--color-primary);
     --button-color: var(--color-black);
@@ -90,7 +90,7 @@ a:active {
 }
 
 .button {
-    display: var(--button-dispaly);
+    display: var(--button-display);
     padding: var(--button-padding);
     border: var(--button-border);
     font-size: var(--button-font-size);
