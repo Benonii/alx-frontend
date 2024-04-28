@@ -352,7 +352,7 @@ ul.row {
     position: relative;
 }
 
-.card-ork .card-title:link {
+.card-work .card-title a{
     display: block;
     text-decoration: none;
     padding-top: 45%;
