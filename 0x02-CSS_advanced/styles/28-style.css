@@ -80,8 +80,8 @@ body {
     position: var(--header-logo-position);
 }
 
-.header-logo:link {
-    display: var(--header-lgo-link-display);
+.header-logo link {
+    display: var(--header-logo-link-display);
     position: var(--header-logo-link-position);
     background-position-y: var(--header-logo-link-top);
     background-position-x: var(--header-logo-link-left);
