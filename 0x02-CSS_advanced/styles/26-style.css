@@ -262,7 +262,7 @@ ul.row {
 }
 
 .card-testimonial .card-avatar {
-    border-radius: 50%;
+    border-radius: 50;
     width: 10em;
     height: 10em;
 }
