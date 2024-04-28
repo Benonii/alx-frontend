@@ -126,7 +126,7 @@ a:active {
     text-decoration: var(--button-hover-text-decoration);
     background-color: var(--button-hover-background);
     transition-duration: var(--transition-duration);
-    transition-property: color, background-color;
+    transition-property: color, bakground-color;
 
 }
 
@@ -219,7 +219,7 @@ a:active {
     background-color: var(--color-white);
     width: 0;
     height: .2rem;
-    transition: var(--transition-duration), var(--transition-cubic-bezier);
+    transition: var(--transition-duration) var(--transition-cubic-bezier);
 }
 
 .nav .nav-item:hover .nav-link::before {
