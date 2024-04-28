@@ -44,7 +44,7 @@ h4, h5, h6 {
     font-weight: var(--font-weight-bold);
 }
 
-a[href]{
+a[href] {
     color: var(--text-color);
     text-decoration: none;
 }
