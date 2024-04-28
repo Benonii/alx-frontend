@@ -126,7 +126,7 @@ a:active {
     text-decoration: var(--button-hover-text-decoration);
     background-color: var(--button-hover-background);
     transition-duration: var(--transition-duration);
-    transition-property: color, bakground-color;
+    transition-property: color, background-color;
 
 }
 
@@ -348,7 +348,6 @@ ul.row {
 
 .card-work:hover .card-inner {
     background-color: rgba(0, 0, 0, 0.7);
-    transform: scale(1.2);
 }
 
 .card-work .card-title {
