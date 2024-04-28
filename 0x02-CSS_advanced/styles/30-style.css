@@ -363,8 +363,8 @@ ul.row {
     top: 0;
     left: 0;
     right: 0;
-    bottom: 0;
-    content: "see it thru";
+    bottom: 1;
+    content: "";
 }
 
 .card-work:hover .card-title {
