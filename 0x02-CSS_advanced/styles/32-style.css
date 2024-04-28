@@ -397,7 +397,7 @@ ul.row {
 
 .card-work:hover .card-image {
     transform: scale(1.2); /* Scale up the image on hover */
-    transition: transform var(--transition-duration) var(--transition-cubic-bezier);
+    transition: var(--transition-duration) var(--transition-cubic-bezier);
   }
 
 
