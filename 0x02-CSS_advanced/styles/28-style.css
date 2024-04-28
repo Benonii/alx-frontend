@@ -61,7 +61,7 @@ html {
     --header-logo-link-display: inline-block;
     --header-logo-link-position: absolute;
     --header-logo-link-top: -1rem;
-    --header-logo-link-left: 1;
+    --header-logo-link-left: 0;
 }
 
 body {
@@ -72,7 +72,7 @@ body {
     min-height: calc(var(--line-height-base) * 1em);
 }
 
-.header {
+.heder {
     padding: var(--header-padding);
 }
 
