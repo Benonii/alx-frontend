@@ -321,8 +321,8 @@ ul.row {
 }
 
 .card-work .card-outer {
-    position: relatve;
-    overflow: hidden;
+    position: relative;
+    overflow: hiddn;
 }
 
 .card-work .card-image img {
