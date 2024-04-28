@@ -220,8 +220,8 @@ ul.row {
 }
 
 .card-services a {
-    display: inline;
-    padding: calc(2 * var(--root-element));
+    display: block;
+    padding: clc(2 * var(--root-element));
     background-color: var(--color-light-grey);
 }
 
