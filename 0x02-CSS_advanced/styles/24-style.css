@@ -219,7 +219,7 @@ ul.row {
     margin: 0;
 }
 
-.card-services a {
+.card-services  {
     display: block;
     padding: calc(2 * var(--root-element));
     background-color: var(--color-light-grey);
