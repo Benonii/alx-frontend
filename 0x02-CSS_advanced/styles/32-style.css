@@ -342,7 +342,6 @@ ul.row {
     top: -.1rem;
     left: -.1rem;
     right: -.1rem;
-    transition: var(--transition-duration) var(--transition-cubic-bezier);
     z-index: 1;
 }
 
@@ -398,6 +397,7 @@ ul.row {
 
 .card-work:hover .card-image {
     transform: scale(1.2); /* Scale up the image on hover */
+    transition: transform var(--transition-duration) var(--transition-cubic-bezier);
   }
 
 
