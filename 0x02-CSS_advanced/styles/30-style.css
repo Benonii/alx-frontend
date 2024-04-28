@@ -340,11 +340,11 @@ ul.row {
     z-index: 1;
 }
 
-.card-wor:hover .card-inner {
+.card-work:hover .card-inner {
     background-color: rgba(0, 0, 0, 0.7);
 }
 
-.card-work .card-title {
+.card-wrk .card-title {
     text-align: center;
     margin: 0;
     opacity: 0;
