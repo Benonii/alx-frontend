@@ -342,13 +342,13 @@ ul.row {
     top: -.1rem;
     left: -.1rem;
     right: -.1rem;
+    transition: transform var(--transition-duration) var(--transition-cubic-bezier);
     z-index: 1;
 }
 
 .card-work:hover .card-inner {
     background-color: rgba(0, 0, 0, 0.7);
     transform: scale(1.2);
-    transition: var(--transition-duration) var(--transition-cubic-bezier);
 }
 
 .card-work .card-title {
