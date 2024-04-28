@@ -225,7 +225,7 @@ ul.row {
     background-color: var(--color-light-grey);
 }
 
-.card-sevices a:hover {
+.card-services a:hover {
     color: var(--color-white);
     background-color: var(--color-primary);
     text-decoration: none;
