@@ -364,10 +364,10 @@ ul.row {
     left: 0;
     right: 0;
     bottom: 0;
-    content: "";
+    content: "see it thru";
 }
 
-.card-work:over .card-title {
+.card-work:hover .card-title {
     opacity: 1;
 }
 
