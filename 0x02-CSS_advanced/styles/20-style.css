@@ -173,6 +173,12 @@ ul.row {
     padding: calc(var(--root-element) * .5);
 }
 
+.col-1-2 {
+    width: 50%;
+    float: left;
+    padding: .5rem
+}
+
 .footer-copyright {
     margin: 0;
     font-size: var(--font-size-small);
