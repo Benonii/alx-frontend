@@ -3,14 +3,14 @@ html {
 }
 
 body {
-    color: #090909;
+    color: #161616;
 }
 
 a {
     color: #161616;
 }
 
-.visuallyhidden {
+.visually-hidden {
     display: none;
 }
 
