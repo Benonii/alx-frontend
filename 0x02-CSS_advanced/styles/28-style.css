@@ -83,8 +83,8 @@ body {
 .header-logo a {
     display: var(--header-logo-link-display);
     position: var(--header-logo-link-position);
-    background-position-y: var(--header-loo-link-top);
-    background-position-x: var(--header-logo-link-left);
+    top: var(--header-logo-link-top);
+    left: var(--header-logo-link-left);
 }
 
 h1, h2, h3,
