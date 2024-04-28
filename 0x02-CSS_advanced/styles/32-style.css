@@ -392,8 +392,8 @@ ul.row {
 }
 
 .card-work:hover .card-image {
-    transform: scale(1.2); /* Scale up the image on hover */
-    transition: var(--transition-duration) ar(--transition-cubic-bezier);
+    transform: scale(12); /* Scale up the image on hover */
+    transition: var(--transition-duration) var(--transition-cubic-bezier);
 }
 
 .card-work:hover .card-outer {
