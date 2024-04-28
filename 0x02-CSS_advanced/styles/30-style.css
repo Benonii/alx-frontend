@@ -329,7 +329,7 @@ ul.row {
     height: 30rem;
     width: 100%;
     object-fit: cover;
-    align-items: bottom;
+    vertical-align: bottom;
 }
 
 .card-work .card-inner {
