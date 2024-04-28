@@ -171,6 +171,10 @@ ul.row {
     width: 33%;
 }
 
+.col-1-2 {
+    width: 50%;
+}
+
 .footer-copyright {
     margin: 0;
     font-size: var(--font-size-small);
