@@ -348,6 +348,7 @@ ul.row {
 
 .card-work:hover .card-inner {
     background-color: rgba(0, 0, 0, 0.7);
+    transform: scale(1.2);
     transition: var(--transition-duration) var(--transition-cubic-bezier);
 }
 
@@ -393,7 +394,6 @@ ul.row {
 }
 
 .card-work:hover .card-image img {
-    transform: scale(1.2);
 }
 
 .card-work:hover .card-outer {
