@@ -367,7 +367,7 @@ ul.row {
     content: "";
 }
 
-.card-work:hover .card-title {
+.card-work:over .card-title {
     opacity: 1;
 }
 
