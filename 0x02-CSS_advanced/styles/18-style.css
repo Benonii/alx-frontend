@@ -153,7 +153,7 @@ a:active {
 
 .nav .nav-link {
     display: block;
-    padding: .04rem;
+    padding: calc(4% * 1rem);
 }
 
 .nav .nav-link:hover {
