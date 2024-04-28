@@ -219,13 +219,13 @@ ul.row {
     margin: 0;
 }
 
-.card-services  {
+.card-services a {
     display: block;
     padding: calc(2 * var(--root-element));
     background-color: var(--color-light-grey);
 }
 
-.card-services a:hover {
+.card-sevices a:hover {
     color: var(--color-white);
     background-color: var(--color-primary);
     text-decoration: none;
