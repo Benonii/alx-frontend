@@ -60,8 +60,8 @@ html {
     --header-logo-position: relative;
     --header-logo-link-display: inline-block;
     --header-logo-link-position: absolute;
-    --header-logo-link-top: -rem;
-    --header-logo-link-left: 0;
+    --header-logo-link-top: -1rem;
+    --header-logo-link-left: 1;
 }
 
 body {
