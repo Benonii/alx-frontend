@@ -23,7 +23,8 @@ html {
 body {
     color: var(--text-color);
     font-family: var(--font-family-base);
-    font-weight: var(--font-weiht-regular);
+    font-size: var(--font-size-medium);
+    font-weight: var(--font-weight-regular);
 }
 
 h1, h2, h3,
