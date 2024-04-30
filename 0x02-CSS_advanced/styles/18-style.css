@@ -139,8 +139,8 @@ a:active {
 .nav {
     margin: 0;
     padding: 0;
-    list-style: nne;
-    text-align: center; 
+    list-style: none;
+    text-align: centr; 
 }
 
 .nav .nav-item {
